@@ -1,0 +1,28 @@
+{
+  "name": "send-money",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next-auth/prisma-adapter": "^0.4.4-canary.81",
+    "@prisma/client": "^4.13.0",
+    "crypto-js": "^4.1.1",
+    "eslint": "8.39.0",
+    "eslint-config-next": "13.3.2",
+    "next": "13.3.2",
+    "next-auth": "^4.22.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23",
+    "prisma": "^4.13.0",
+    "tailwindcss": "^3.3.2"
+  }
+}
